@@ -6,11 +6,17 @@
 
 .travelNav {
     display: flex;
-    justify-content: space-between;
+    /* row-gap: 50px; */
     align-items: center;
     padding: 3rem 9rem;
 }
 
+.commonTitle {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
 
 
 
@@ -36,7 +42,7 @@
 
 /* banner related style */
 .bannerImage {
-    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,8 +53,12 @@
     align-items: center;
 
 }
-.bannerTittle{
-    color: #FFF; font-size: 64px;font-weight: 800; text-align: center;
+
+.bannerTittle {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
 }
 
 .bannerContant {
@@ -80,5 +90,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
+}
+
+/* our populer related style below */
+.populerTour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.populerContent {
+    width: 50%;
+    color: rgba(19, 19, 24, 0.70);
+    column-gap: 30px;
 }

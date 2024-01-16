@@ -8,22 +8,39 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-        
+
     }
+
     .btn-container {
         flex-direction: column;
-        padding: 5px;gap: 10px;
+        padding: 5px;
+        gap: 10px;
 
 
 
 
     }
-    .bannerTittle{
-        font-size:40px;
+
+    .bannerTittle {
+        font-size: 40px;
         font-weight: 800;
     }
-    .bannerContant{
+
+    .bannerContant {
         padding: 0px;
     }
-    
+
+    .populerTour {
+        flex-direction: column;
+    }
+
+    .populerContent {
+        width: fit-content;
+        gap: 10px;
+    }
+
+    .commonTitle {
+        font-size: 25px;
+        text-align: center;
+    }
 }
