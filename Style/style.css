@@ -33,3 +33,30 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+/* banner related style */
+.bannerImage {
+    background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.bannerContant {
+    padding: 120px 200px;
+}
+
+/* botton style */
+.whitebtn {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.btn-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
