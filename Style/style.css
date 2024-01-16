@@ -105,8 +105,48 @@
     width: 50%;
     color: rgba(19, 19, 24, 0.70);
     margin: 10px;
-    
+
 }
-.populerContent>ul>li{
+
+.populerContent>ul>li {
     margin: 10px;
 }
+
+/* image related stryle here */
+.imageDecoration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.imageDecoration>img {
+    width: 100%;
+
+}
+
+.imgDeco2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+.imgDeco2>img {
+    height: 290px;
+    width: 100%;
+}
+
+.imaDeco3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+}
+.imaDeco3>img{
+    height: 380px;
+    width: 100%;
+}
+

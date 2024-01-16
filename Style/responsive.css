@@ -43,4 +43,16 @@
         font-size: 25px;
         text-align: center;
     }
+
+    .imageDecoration {
+        flex-direction: column;
+    }
+
+    .imgDeco2 {
+        flex-direction: column;
+    }
+.imaDeco3{
+    flex-direction: column;
+}
+
 }
