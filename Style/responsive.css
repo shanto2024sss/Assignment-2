@@ -54,5 +54,12 @@
 .imaDeco3{
     flex-direction: column;
 }
+.ServiceConbtainer{
+    flex-direction: column;
+}
+.serviceCard{
+    width: 90%;
+    padding: 10px;
+}
 
 }

@@ -145,8 +145,26 @@
     margin: 20px 0px;
     gap: 20px;
 }
-.imaDeco3>img{
+
+.imaDeco3>img {
     height: 380px;
     width: 100%;
 }
 
+.ServiceConbtainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.serviceCard {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    gap: 20px;
+    width: 50%;
+
+
+}
