@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+.nagivation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLogo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.navLink {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.navLink>a {
+    color: #424247;
+}
