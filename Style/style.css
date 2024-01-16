@@ -6,7 +6,7 @@
 
 .travelNav {
     display: flex;
-    /* row-gap: 50px; */
+    justify-content: space-between;
     align-items: center;
     padding: 3rem 9rem;
 }
