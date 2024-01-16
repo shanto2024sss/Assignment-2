@@ -1,0 +1,13 @@
+/* responsive for mobile devices */
+@media screen and (max-width: 600px) {
+    .travelNav {
+        flex-direction: column;
+    }
+
+    .navLink {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        
+    }
+}
