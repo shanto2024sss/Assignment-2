@@ -40,7 +40,15 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bannerTittle{
+    color: #FFF; font-size: 64px;font-weight: 800; text-align: center;
 }
 
 .bannerContant {
@@ -48,15 +56,29 @@
 }
 
 /* botton style */
+.yellowbtn {
+    background-color: #FF5400;
+    padding: 16px;
+    border-radius: 6px;
+    border: 0px;
+    width: 175px;
+    color: white;
+}
+
 .whitebtn {
     background-color: white;
     padding: 16px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: 0px;
+    width: 175px;
 }
 
 .btn-container {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }

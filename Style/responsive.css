@@ -10,4 +10,20 @@
         gap: 10px;
         
     }
+    .btn-container {
+        flex-direction: column;
+        padding: 5px;gap: 10px;
+
+
+
+
+    }
+    .bannerTittle{
+        font-size:40px;
+        font-weight: 800;
+    }
+    .bannerContant{
+        padding: 0px;
+    }
+    
 }
